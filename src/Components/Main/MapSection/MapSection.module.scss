@@ -1,0 +1,67 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .mapBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение элементов по умолчанию */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mapItem {
+    width: 100%;
+    height: 400px; /* Задайте начальную высоту */
+    margin: 5px 0;
+    border: none;
+  }
+  
+  .mapImage {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+
+  }
+  
+  /* Медиазапрос для экранов шириной 700 пикселей и более */
+  @media (min-width: 700px) {
+    .mapBox {
+      flex-direction: row; /* Горизонтальное расположение элементов */
+    }
+  
+    .mapItem {
+      width: 50%; /* Ширина 50% для каждого элемента */
+      height: 400px; /* Задайте нужную высоту */
+      margin: 10px;
+    }
+  
+    .mapImage {
+      width: 50%; /* Ширина 50% для каждого элемента */
+      height: 400px;
+      margin: 10px;
+    }
+  }
+  
+  /* Медиазапрос для экранов шириной 400 пикселей и менее */
+  @media (max-width: 400px) {
+    .mapItem {
+      width: 100%; /* Ширина 100% для каждого элемента */
+      height: 300px; /* Высота 300px */
+      margin: 10px 0;
+    }
+  
+    .mapImage {
+      width: 100%;
+      height: 300px;
+      object-fit: cover; /* Обеспечивает сохранение пропорций изображения */
+      object-position: 30%;
+      margin: 10px 0;
+    }
+  }

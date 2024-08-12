@@ -2,37 +2,35 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body:-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  border-radius: 20px;
+  border: 3px solid #050c26;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.dark-scrollbar::-webkit-scrollbar {
+  width: 12px !important; /* Ширина скроллбара для вебkit-браузеров */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dark-scrollbar::-webkit-scrollbar-track {
+  background: #2c2c2c !important; /* Цвет фона скроллбара */
 }
 
-.App-link {
-  color: #61dafb;
+.dark-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #555 !important; /* Цвет ползунка скроллбара */
+  border-radius: 10px !important; /* Скругление углов */
+  border: 3px solid #2c2c2c !important; /* Внутренний отступ, который выглядит как граница */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dark-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #777 !important; /* Цвет ползунка при наведении */
 }

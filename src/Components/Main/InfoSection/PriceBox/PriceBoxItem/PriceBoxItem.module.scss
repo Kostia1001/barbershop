@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.textBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--Black, #121212);
+  font-family: Merriweather;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  p {
+    width: auto;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  flex-shrink: 0;
+  background: var(--Dark-Vanilla, #dec7a6);
+}
+
+.title {
+  color: #cecbcb;
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 128px */
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 230px;
+    height: 100px;
+    font-size: 18px;
+    text-align: start;
+  }
+}
+.titlePrice {
+  color: #cecbcb;
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 128px */
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 480px) {
+    height: 100px;
+    font-size: 17px;
+  }
+}
