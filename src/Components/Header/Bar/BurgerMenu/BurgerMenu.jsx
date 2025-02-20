@@ -16,7 +16,7 @@ import ButtonContact from "../../../ButtonContact/ButtonContact";
 const pages = [
   { text: "Послуги", href: "section1" },
   { text: "Контакти", href: "section2" },
-  { text: "Майстри", href: "section3" },
+  { text: "Наші роботи", href: "section3" },
   { text: "ми тут", href: "section4" },
 ];
 
@@ -41,8 +41,7 @@ function BurgerMenu() {
       sx={{
         background: "rgba(255, 255, 255, 0)",
         boxShadow: "none",
-        position:"relative",
-        
+        position: "relative",
       }}
     >
       <Container
@@ -52,7 +51,6 @@ function BurgerMenu() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          
         }}
       >
         <Typography
@@ -68,19 +66,17 @@ function BurgerMenu() {
             letterSpacing: ".3rem",
             color: "inherit",
             textDecoration: "none",
-            
           }}
         >
           <div style={{ display: "flex", alignItems: "center" }}>
             <img src={logo} alt="" style={{ height: "80px" }} />
           </div>
         </Typography>
-        <Toolbar disableGutters >
+        <Toolbar disableGutters>
           <Box
             sx={{
               flexGrow: 1,
               display: { xs: "flex", md: "none" },
-              
             }}
           >
             <IconButton
@@ -91,7 +87,7 @@ function BurgerMenu() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon sx={{ fontSize: "30px" }} />
             </IconButton>
             <Menu
               id="menu-appbar"
@@ -109,12 +105,18 @@ function BurgerMenu() {
               onClose={handleCloseNavMenu}
               sx={{
                 display: { xs: "block", md: "none" },
-
               }}
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography href={`#${page.href}`} component="a" textAlign="center">{page.text}</Typography>
+                  <Typography
+                    href={`#${page.href}`}
+                    component="a"
+                    textAlign="center"
+                    
+                  >
+                    {page.text}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -133,13 +135,13 @@ function BurgerMenu() {
               fontWeight: 700,
               letterSpacing: ".3rem",
               color: "inherit",
-              textDecoration: "none",  
+              textDecoration: "none",
             }}
           ></Typography>
           <Box
             sx={{
               flexGrow: 1,
-              display: { xs: "none", md: "flex",},
+              display: { xs: "none", md: "flex" },
               maxWidth: "450px",
               width: "450px",
               justifyContent: "space-between",
@@ -153,14 +155,13 @@ function BurgerMenu() {
                   document
                     .getElementById(page.href)
                     .scrollIntoView({ behavior: "smooth" });
-                    
                 }}
-                sx={{padding:"5px 0 0 0"}}
+                sx={{ padding: "5px 0 0 0" }}
               >
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 4, color: "white", display: "block",fontSize:18}}
+                  sx={{ my: 4, color: "white", display: "block", fontSize: 18 }}
                 >
                   {page.text}
                 </Button>
@@ -170,7 +171,7 @@ function BurgerMenu() {
 
           <Box sx={{ flexGrow: 0 }}>
             <Menu
-              sx={{ mt: "45px"}}
+              sx={{ mt: "45px" }}
               id="menu-appbar"
               anchorEl={anchorElUser}
               anchorOrigin={{
@@ -188,8 +189,8 @@ function BurgerMenu() {
               {pages.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseUserMenu}>
                   <Typography
-                  component="a"
-                   href={`#${setting.href}`}
+                    component="a"
+                    href={`#${setting.href}`}
                     textAlign="center"
                   >
                     {setting.text}
@@ -199,7 +200,7 @@ function BurgerMenu() {
             </Menu>
           </Box>
         </Toolbar>
-        <ButtonContact paddingButtom="10px" isBlinking={true}/>
+        <ButtonContact paddingButtom="10px" isBlinking={true} />
       </Container>
     </AppBar>
   );

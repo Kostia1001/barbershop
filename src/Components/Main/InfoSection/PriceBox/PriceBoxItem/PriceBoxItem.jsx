@@ -61,6 +61,8 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
   },
   "@media (max-width: 480px)": {
     fontSize: "0.7rem",
+    height: 30,
+    alignItems: "center"
   },
 }));
 export default function PriceBoxItem() {

@@ -37,6 +37,7 @@
   height: 5px;
   flex-shrink: 0;
   background: var(--Dark-Vanilla, #dec7a6);
+  
 }
 
 .title {
@@ -62,7 +63,7 @@
   @media (max-width: 480px) {
     max-width: 230px;
     height: 100px;
-    font-size: 18px;
+    font-size: 12px;
     text-align: start;
   }
 }

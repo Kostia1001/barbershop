@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/barbershop/static/css/main.912b01b0.css",
+    "main.js": "/barbershop/static/js/main.7aae848e.js",
+    "static/js/453.d4606b9f.chunk.js": "/barbershop/static/js/453.d4606b9f.chunk.js",
+    "static/media/Screenshot_3.png": "/barbershop/static/media/Screenshot_3.860abd837c66a32b8899.png",
+    "static/media/_1064.jpg": "/barbershop/static/media/30258560046566109_1064.88b171399e4f17de8ecb.jpg",
+    "static/media/Anastasia.jpg": "/barbershop/static/media/Anastasia.ff6349fd2b5ac2c18a73.jpg",
+    "static/media/Emma.jpg": "/barbershop/static/media/Emma.570ca9a31e5fa02fb60c.jpg",
+    "static/media/price-banner.jpg": "/barbershop/static/media/price-banner.7b03627a6f78808772e1.jpg",
+    "static/media/logo.svg": "/barbershop/static/media/logo.750cf95744159be00c3de74b04286879.svg",
+    "static/media/method-draw-image.svg": "/barbershop/static/media/method-draw-image.daa594313ca970daaf22fb30ce49dee5.svg",
+    "static/media/method-draw.svg": "/barbershop/static/media/method-draw.d88631fd16338c152b62f221c74a65a0.svg",
+    "static/media/addressimg.svg": "/barbershop/static/media/addressimg.2256af6ab89eb2691f1e897c92f4244c.svg",
+    "static/media/hoursimg.svg": "/barbershop/static/media/hoursimg.4f63306e4db4b81ef7cede05cfca84a8.svg",
+    "static/media/phoneimg.svg": "/barbershop/static/media/phoneimg.72e519a0852ae9af96efdfd0ed16b5f7.svg",
+    "index.html": "/barbershop/index.html",
+    "main.912b01b0.css.map": "/barbershop/static/css/main.912b01b0.css.map",
+    "main.7aae848e.js.map": "/barbershop/static/js/main.7aae848e.js.map",
+    "453.d4606b9f.chunk.js.map": "/barbershop/static/js/453.d4606b9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.912b01b0.css",
+    "static/js/main.7aae848e.js"
+  ]
+}
