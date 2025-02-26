@@ -20,6 +20,7 @@
     "embla-carousel-auto-scroll": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
     "flowbite-react": "^0.10.2",
+    "gh-pages": "^6.3.0",
     "lodash.clamp": "^4.0.3",
     "motion": "^12.4.2",
     "react": "^18.3.1",
@@ -42,7 +43,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
