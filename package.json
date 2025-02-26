@@ -46,6 +46,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
+  "homepage":".",
   "eslintConfig": {
     "extends": [
       "react-app",
