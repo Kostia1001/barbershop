@@ -10,7 +10,7 @@ const FirstSection = () => {
           <h1>BARBER ROOM</h1>
           <h2>Фортеця чоловічого стилю</h2>
           <h3>проспект Героїв Харкова, 162</h3>
-          <div id="section2" ><ButtonContact isBlinking={false}/></div>
+          <div id="section2" ><ButtonContact isBlinking={true} fontSize={15} paddingButtom={10} /></div>
         </div>
 
       </div>

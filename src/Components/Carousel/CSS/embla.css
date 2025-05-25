@@ -1,6 +1,6 @@
 .embla {
   max-width: 100%;
-  margin: auto;
+
   --slide-height: 40rem;
   --slide-spacing: 1rem;
   --slide-size: 16%;
@@ -188,7 +188,7 @@
 @media (max-width: 480px) {
   .embla {
     --slide-size: 55%;
-    margin-top: 30%;
+    margin-top: 10%;
   }
 
   .embla__slide__img {

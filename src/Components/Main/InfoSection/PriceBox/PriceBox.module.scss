@@ -10,7 +10,7 @@
 }
 .titleBox {
   display: flex;
-  width: 40%;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -106,6 +106,7 @@
   .title {
     font-size: 50px;
     letter-spacing: 1.2px;
+    font-weight: 700;
   }
 
   .textBox {

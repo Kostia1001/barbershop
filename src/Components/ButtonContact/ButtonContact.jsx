@@ -34,10 +34,22 @@ const CustomLink = styled(Link)(({ theme }) => ({
   width: 'fit-content',
 }));
 
-const ButtonContact = ({ paddingButtom, isBlinking= true}) => {
+const ButtonContact = ({
+  paddingButtom,
+  isBlinking = true,
+  display,
+  fontSize,
+}) => {
   return (
-    <CustomLink to="https://n827968.alteg.io/company/777273/personal/menu?o=">
-      <CustomButton isBlinking={isBlinking} style={{ padding: paddingButtom }} variant="contained">
+    <CustomLink
+      to="https://n827968.alteg.io/company/777273/personal/menu?o="
+      style={{ display: display }}
+    >
+      <CustomButton
+        isBlinking={isBlinking}
+        style={{ padding: paddingButtom, fontSize: fontSize }}
+        variant="contained"
+      >
         Записатися
       </CustomButton>
     </CustomLink>

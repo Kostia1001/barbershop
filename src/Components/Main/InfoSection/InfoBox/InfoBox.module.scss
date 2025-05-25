@@ -6,7 +6,7 @@
   height: 200px;
   display: flex;
   justify-content: center;
-
+border-radius: 5px;
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
     var(--White, #fff);
@@ -70,35 +70,36 @@
 
 @media (max-width: 768px) {
   .container {
-    width: 100%;
-    height: auto;
+    width: 85%;
+    // height: auto;
     // top: 0;
     padding: 10px;
     box-shadow: none;
-    transform: translate(0%, -20%);
+    transform: translate(0%, -50%);
+    height: 130px;
   }
 
   .box {
-    flex-direction: column;
+height: 100px;
     height: auto;
   }
 
   .itemBox {
-    height: auto;
+    height: 60;
     margin-bottom: 10px;
   }
 
   .itemBox img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 
   .title {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .infoTitle {
-    font-size: 14px;
+    font-size: 7px;
   }
 
   .line {
@@ -107,6 +108,10 @@
 }
 @media (max-width: 480px) {
 
+  .itemBox {
+    height: 60px;
+
+  }
   .itemBox:last-child {
     margin-bottom: 0;
   }

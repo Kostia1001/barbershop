@@ -33,8 +33,8 @@ const InfoBox = () => {
           <h2 className={styles.title}>Часи</h2>
           <hr className={styles.line} />
           <div className={styles.infoTitle}>
-            <p>Mon – Sat: 9AM – 8PM</p>
-            <p>Sun: 9AM – 6PM</p>
+            <p>Понеділок – Неділя <br/>
+               8:00 – 21:00</p>
           </div>
         </div>
       </div>
