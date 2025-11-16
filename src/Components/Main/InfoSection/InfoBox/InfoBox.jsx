@@ -21,10 +21,8 @@ const InfoBox = () => {
           <hr className={styles.line} />
           <div className={styles.infoTitle}>
             <p>
-              <a href="tel:+621234567890">+62(123)-456-7890</a>
-            </p>
-            <p>
-              <a href="tel:+621234567890">+62(123)-456-7890</a>
+              <a href="tel:+621234567890">+380 66 225 19 99</a>
+  
             </p>
           </div>
         </div>
@@ -33,8 +31,10 @@ const InfoBox = () => {
           <h2 className={styles.title}>Часи</h2>
           <hr className={styles.line} />
           <div className={styles.infoTitle}>
-            <p>Понеділок – Неділя <br/>
-               8:00 – 21:00</p>
+            <p>
+              Понеділок – Неділя <br />
+              8:00 – 21:00
+            </p>
           </div>
         </div>
       </div>

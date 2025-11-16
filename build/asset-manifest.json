@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.629a6c67.css",
-    "main.js": "./static/js/main.62196545.js",
+    "main.css": "./static/css/main.8ee93112.css",
+    "main.js": "./static/js/main.928287d4.js",
     "static/js/453.d4606b9f.chunk.js": "./static/js/453.d4606b9f.chunk.js",
     "static/media/Screenshot_3.png": "./static/media/Screenshot_3.860abd837c66a32b8899.png",
     "static/media/barber-tools-laid-out-on-table-scaled.jpg": "./static/media/barber-tools-laid-out-on-table-scaled.7ecfaadbf039085f0243.jpg",
@@ -24,12 +24,12 @@
     "static/media/hoursimg.svg": "./static/media/hoursimg.3e764120cfae292bf8773fb7265eac05.svg",
     "static/media/phoneimg.svg": "./static/media/phoneimg.db42b1d03d1f9995fd6b11633aec4f0b.svg",
     "index.html": "./index.html",
-    "main.629a6c67.css.map": "./static/css/main.629a6c67.css.map",
-    "main.62196545.js.map": "./static/js/main.62196545.js.map",
+    "main.8ee93112.css.map": "./static/css/main.8ee93112.css.map",
+    "main.928287d4.js.map": "./static/js/main.928287d4.js.map",
     "453.d4606b9f.chunk.js.map": "./static/js/453.d4606b9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.629a6c67.css",
-    "static/js/main.62196545.js"
+    "static/css/main.8ee93112.css",
+    "static/js/main.928287d4.js"
   ]
 }

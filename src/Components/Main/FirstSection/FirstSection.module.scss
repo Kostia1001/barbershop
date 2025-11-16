@@ -1,102 +1,213 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto+Mono&family=Roboto:wght@400;500&display=swap');
+
 // .container {
 //   display: flex;
 //   justify-content: center;
 //   align-items: center;
-//   background: linear-gradient(rgba(10, 10, 10, 0.75), transparent),
+//   background: 
+//     linear-gradient(rgba(10, 10, 10, 0.75), transparent),
 //     url("../../../img/barber-tools-laid-out-on-table-scaled.jpg") no-repeat center center;
 //   background-size: cover;
+//   background-position: center center;
+//   background-attachment: scroll;
 //   width: 100%;
-//   height: 1100px;
+//   height: 100vh;
 // }
-//   .containerBox {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: space-evenly;
-//     text-align: center;
-//     height: 70vh;
-//     width: 100%;
+
+// .containerBox {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: space-evenly;
+//   text-align: center;
+//   height: 70vh;
+//   width: 100%;
+// }
+
+// .boxTitle {
+//   height: 50vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+
+//   width: 100%;
+// }
+
+// .containerBox h1 {
+//   color: #bbb8b8;
+//   font-family: Roboto;
+//   font-size: clamp(32px, 10vw, 100px);
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: 1;
+//   letter-spacing: 0.05em;
+//   text-transform: uppercase;
+//   margin-bottom: 20px;
+// }
+
+// .containerBox h2 {
+//   font-size: clamp(20px, 5vw, 40px);
+//   color: #fff;
+//   margin-bottom: 20px;
+//   font-family: Roboto;
+//   font-weight: 400;
+//   line-height: 1;
+//   opacity: 0.5;
+// }
+
+// .containerBox h3 {
+//   font-size: clamp(14px, 4vw, 20px);
+//   color: #fff;
+//   font-family: Roboto;
+//   font-weight: 400;
+//   line-height: 1;
+//   margin-bottom: 30px;
+// }
+
+// // Адаптация под планшеты
+// @media (max-width: 768px) {
+//   .container {
+//     background-position: center top;
+//     height: 90vh;
 //   }
 
 //   .boxTitle {
-//     height: 50vh;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     text-align: center;
-//     margin-bottom: 20px;
-//     width: 100%;
+//     height: auto;
 //   }
+// }
 
-//  .containerBox  h1 {
-//     // font-size: 80px;
-//     // color: #fff;
-//     // margin-bottom: 30px;
-//     // font-family: Merriweather;
-
-//     // font-style: normal;
-//     // font-weight: 700;
-//     // line-height: 100%; /* 150px */
-//     color: #bbb8b8;
-//     font-family: Roboto;
-//     font-size: 100px;
-//     font-style: normal;
-//     font-weight: 700;
-//     line-height: 100%; /* 128px */
-//     letter-spacing: -6.4px;
-//     text-transform: uppercase;
-//   }
-
-//  .containerBox  h2 {
-//     font-size: 40px;
-//     color: #fff;
-//     margin-bottom: 30px;
-//     font-family: Roboto;
-
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: 100%; /* 150px */
-//     opacity: 50%;
-//   }
-
-//  .containerBox  h3 {
-//     font-size: 20px;
-//     color: #fff;
-//     // color: #6c757d;
-//     font-family: Roboto;
-
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: 100%; /* 150px */
-//     margin-bottom: 30px;
-//   }
-
+// // Адаптация под мобильные устройства
 // @media (max-width: 480px) {
-//  .containerBox  h1 {
-//     font-size: 50px;
-//     font-weight: 700;
-//     letter-spacing: -3.4px;
-//     margin-bottom: 2%;
+//   .container {
+//     background-position: center top;
+//     height: 80vh;
+//   }
+//   .containerBox h1 {
+//     font-size: 45px;
+//   }
+// }
+// ............
+
+// .container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background:
+//     linear-gradient(rgba(10, 10, 10, 0.75), transparent),
+//     url("../../../img/barber-tools-laid-out-on-table-scaled.jpg") no-repeat center center;
+//   background-size: cover;
+//   background-position: center center;
+//   background-attachment: scroll;
+//   width: 100%;
+//   height: 100vh;
+// }
+
+// .containerBox {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: space-evenly;
+//   text-align: center;
+//   height: 70vh;
+//   width: 100%;
+// }
+
+// .boxTitle {
+//   height: 50vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+//   width: 100%;
+//   gap: 12px;
+// }
+
+// .containerBox h1 {
+//   background: linear-gradient(90deg, #FFD700, #FF8C00);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   font-family: 'Montserrat', sans-serif;
+//   font-size: clamp(40px, 10vw, 72px);
+//   font-weight: 900;
+//   letter-spacing: 0.1em;
+//   text-transform: uppercase;
+//   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+//   animation: fadeInUp 0.8s ease forwards;
+//   opacity: 0;
+// }
+
+// .containerBox h2 {
+//   font-size: clamp(18px, 4vw, 26px);
+//   color: #00ffff;
+//   font-family: 'Roboto Mono', monospace;
+//   font-weight: 500;
+//   text-shadow: 0 0 6px rgba(0, 255, 255, 0.8);
+//   animation: fadeInUp 1s ease forwards;
+//   opacity: 0;
+// }
+
+// .containerBox h3 {
+//   font-size: clamp(14px, 3.5vw, 18px);
+//   background-color: rgba(0, 0, 0, 0.5);
+//   padding: 6px 14px;
+//   color: #fff;
+//   border-radius: 15px;
+//   font-family: 'Roboto', sans-serif;
+//   font-weight: 400;
+//   animation: fadeInUp 1.2s ease forwards;
+//   opacity: 0;
+//   border: 1px solid rgba(255, 255, 255, 0.2);
+// }
+
+// // Анимация появления
+// @keyframes fadeInUp {
+//   0% {
+//     transform: translateY(30px);
+//     opacity: 0;
+//   }
+//   100% {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// }
+
+// // Планшет
+// @media (max-width: 768px) {
+//   .container {
+//     background-position: center top;
 //   }
 
-//   .container{
-//     height: 900px;
+//   .boxTitle {
+//     height: auto;
+//   }
+// }
+
+// // Мобильный
+// @media (max-width: 480px) {
+//   .containerBox h1 {
+//     font-size: 40px;
 //   }
 // }
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: 
-    linear-gradient(rgba(10, 10, 10, 0.75), transparent),
+
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.1) 100%),
     url("../../../img/barber-tools-laid-out-on-table-scaled.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: scroll;
+
+background-size: cover;
+    
   width: 100%;
   height: 100vh;
+
+  filter: contrast(1.05) brightness(1) saturate(1.05);
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.2);
 }
 
 .containerBox {
@@ -107,6 +218,7 @@
   text-align: center;
   height: 70vh;
   width: 100%;
+  padding: 0 20px;
 }
 
 .boxTitle {
@@ -115,47 +227,82 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  padding: 20px;
   text-align: center;
-  margin-bottom: 20px;
-  width: 100%;
+  backdrop-filter: blur(0,6px);
 }
 
 .containerBox h1 {
-  color: #bbb8b8;
-  font-family: Roboto;
-  font-size: clamp(32px, 10vw, 100px);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.05em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(40px, 10vw, 72px);
+  font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+
+  // Новый градиент
+  // background: linear-gradient(90deg, #fdf6e3, #ffd580);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #e0c090, #c58b4e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, 0.3),
+    0 0 3px rgba(255, 255, 255, 0.2);
+
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
 }
 
 .containerBox h2 {
-  font-size: clamp(20px, 5vw, 40px);
-  color: #fff;
-  margin-bottom: 20px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 1;
-  opacity: 0.5;
+  font-family: 'Roboto Mono', monospace;
+  font-size: clamp(18px, 4vw, 26px);
+  font-weight: 500;
+  color: #00f7ff;
+  text-shadow:
+  0 0 3px rgba(0, 255, 255, 0.5),
+  0 0 8px rgba(0, 255, 255, 0.3);
+
+  animation-delay: 0.3s; 
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
 }
 
 .containerBox h3 {
-  font-size: clamp(14px, 4vw, 20px);
-  color: #fff;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 1;
-  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(14px, 3.5vw, 18px);
+  color: #ffffff;
+  opacity: 0.8;
+  padding: 4px 12px;
+  border-radius: 8px;
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  margin-top: 8px;
+  animation-delay: 0.6s;
+}
+.containerBox h1,
+.containerBox h2,
+.containerBox h3 {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+// Анимация появления
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-// Адаптация под планшеты
+// Планшеты
 @media (max-width: 768px) {
   .container {
     background-position: center top;
-    height: 90vh;
   }
 
   .boxTitle {
@@ -163,10 +310,42 @@
   }
 }
 
-// Адаптация под мобильные устройства
+// Мобильные устройства
 @media (max-width: 480px) {
-  .container {
-    background-position: center top;
-    height: 80vh;
+  .containerBox {
+    padding: 0 16px;
+    gap: 12px;
+  }
+
+  .boxTitle {
+    gap: 12px;
+    padding: 20px 10px;
+  }
+
+  .containerBox h1 {
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .containerBox h2 {
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 0 4px;
+    text-shadow:
+      0 0 3px #00f7ff,
+      0 0 6px #00f7ff;
+  }
+
+  .containerBox h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 6px 10px;
+  }
+
+  button, .buttonClassNameIfAny {
+    padding: 10px 16px;
+    font-size: 14px;
   }
 }
